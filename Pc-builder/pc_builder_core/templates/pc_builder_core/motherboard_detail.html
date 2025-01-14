@@ -1,0 +1,465 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная материнская плата</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f4f7;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .motherboard-container {
+            position: relative;
+            max-width: 60%;
+        }
+
+        .motherboard-info {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .motherboard-info h3 {
+            color: #007BFF;
+            margin-top: 0;
+        }
+
+        .motherboard-info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .motherboard-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        map {
+            display: block;
+        }
+
+        area {
+            cursor: pointer;
+            outline: none;
+        }
+
+        .popup {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: none;
+            z-index: 1000;
+            transition: transform 0.3s ease-in-out;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .popup h2 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            color: #007BFF;
+        }
+
+        .popup ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .popup li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .popup li a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .popup button {
+            padding: 8px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .popup button:hover {
+            background-color: #0056b3;
+        }
+
+        .calculator {
+            margin-left: 20px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .calculator h2 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        .calculator ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .calculator li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .calculator li button {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 2px 6px;
+            cursor: pointer;
+        }
+
+        .total-price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #007BFF;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        .popup.show {
+            transform: translateX(0);
+        }
+
+        .popup.hide {
+            transform: translateX(100%);
+        }
+
+        .motherboard-button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .motherboard-button:hover {
+            background-color: #218838;
+        }
+
+        .preset-buttons {
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .preset-button {
+        padding: 10px 20px;
+        background-color: #6c757d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        text-align: center;
+    }
+
+    .preset-button:hover {
+        background-color: #5a6268;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="motherboard-container">
+            <div class="motherboard-info">
+                <h3>Информация о материнской плате</h3>
+                <p><strong>Модель:</strong> {{ motherboard.model }}</p>
+                <p><strong>Сокет:</strong> {{ motherboard.socket }}</p>
+                <p><strong>Цена:</strong> {{ motherboard.price }} руб</p>
+                <p><strong>Ссылка:</strong> <a href={{ motherboard.ref }} target="_blank">Посмотреть</a></p>
+            </div>
+
+            <img src="{% static './media/images/motherboard.jpeg' %}" usemap="#motherboard-map" alt="Материнская плата">
+
+            <map name="motherboard-map">
+                <area shape="rect" coords="185,135,245,195" href="#" alt="CPU" onclick="showPopup('cpu'); return false;">
+                <area shape="rect" coords="300,50,350,280" href="#" alt="RAM" onclick="showPopup('ram'); return false;">
+                <area shape="rect" coords="150,200,300,250" href="#" alt="GPU" onclick="showPopup('gpu'); return false;">
+                <area shape="rect" coords="100,300,250,350" href="#" alt="Storage" onclick="showPopup('storage'); return false;">
+            </map>
+        </div>
+
+        <div class="calculator">
+            <h2>Калькулятор стоимости</h2>
+            <ul id="selected-components">
+                <li>{{ motherboard.model }} - {{ motherboard.price }} руб</li>
+            </ul>
+            <p class="total-price">Общая стоимость: {{ motherboard.price }} руб</p>
+
+            <h3>Выбор готовой сборки</h3>
+                <div class="preset-buttons">
+                    <button class="preset-button" onclick="selectPreset('budget')">Бюджетная</button>
+                    <button class="preset-button" onclick="selectPreset('maximum')">Максимальная</button>
+                    <button class="preset-button" onclick="selectPreset('work')">Рабочая</button>
+                    <button class="preset-button" onclick="selectPreset('render')">Для рендера</button>
+                </div>
+
+            <button class="motherboard-button" onclick="redirectToMotherboardSelection()">Выбрать другую материнскую плату</button>
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <h2>Подходящие комплектующие</h2>
+        <ul id="component-list">
+            <li>Выберите компонент для просмотра</li>
+        </ul>
+        <button onclick="closePopup()">Закрыть</button>
+    </div>
+
+<script>
+    let selectedComponents = {
+        cpu: null,
+        ram: [],
+        gpu: null,
+        storage: null,
+        motherboard: {
+            model: "{{ motherboard.model }}",
+            price: {{ motherboard.price }}
+        }
+    };
+
+    let totalPrice = {{ motherboard.price }};
+
+
+
+    function updateCalculator() {
+    const componentList = document.getElementById('selected-components');
+    const totalPriceElement = document.querySelector('.total-price');
+
+    let componentsHTML = `
+        <li>
+            ${selectedComponents.motherboard.model} - ${selectedComponents.motherboard.price} руб
+        </li>
+    `;
+
+    componentsHTML += Object.entries(selectedComponents)
+        .filter(([type, item]) => type !== 'motherboard' && item && (Array.isArray(item) ? item.length : true))
+        .map(([type, item]) => {
+            if (Array.isArray(item)) {
+                return item.map(subItem => `
+                    <li>
+                        ${subItem.model} - ${subItem.price} руб
+                        <button onclick="removeComponent('${type}', '${subItem.model}')">×</button>
+                    </li>
+                `).join('');
+            } else {
+                return `
+                    <li>
+                        ${item.model} - ${item.price} руб
+                        <button onclick="removeComponent('${type}')">×</button>
+                    </li>
+                `;
+            }
+        })
+        .join('');
+
+    componentList.innerHTML = componentsHTML;
+
+    // Защита от NaN
+    if (isNaN(totalPrice)) {
+        totalPrice = 0;
+    }
+
+    totalPriceElement.textContent = `Общая стоимость: ${totalPrice.toFixed(2)} руб`;
+
+}
+
+
+    function removeComponent(componentType, model = null) {
+    if (componentType === 'ram' && model) {
+        const removedComponent = selectedComponents[componentType].find(c => c.model === model);
+        if (removedComponent) {
+            totalPrice -= parseFloat(removedComponent.price) || 0;
+            totalPrice = Math.round(totalPrice * 100) / 100;
+            selectedComponents[componentType] = selectedComponents[componentType].filter(c => c.model !== model);
+        }
+    } else if (selectedComponents[componentType]) {
+        totalPrice -= parseFloat(selectedComponents[componentType].price) || 0;
+        totalPrice = Math.round(totalPrice * 100) / 100;
+        selectedComponents[componentType] = null;
+    }
+    updateCalculator();
+}
+
+
+
+    function showPopup(componentType) {
+        const selectedMotherboardId = window.location.pathname.split('/')[2];
+        const popup = document.getElementById('popup');
+        const componentList = document.getElementById('component-list');
+
+        componentList.innerHTML = "<li>Загрузка...</li>";
+
+        fetch(`/filter/${selectedMotherboardId}/${componentType}/`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Ошибка сети");
+                }
+                return response.json();
+            })
+            .then(data => {
+                const components = data.components || [];
+                if (components.length > 0) {
+                    componentList.innerHTML = components.map(c => {
+                        c.price = parseInt(c.price);
+                        let componentLink = c.ref ? `<a href="${c.ref}" target="_blank">Посмотреть</a>` : 'Нет ссылки';
+                        return `<li>
+                                   <a href="#" onclick="selectComponent('${componentType}', ${JSON.stringify(c).replace(/"/g, '&quot;')})">${c.model}</a>
+                                   - Стоимость: ${c.price} руб
+                                   <br>
+                                   ${componentType === 'cpu' ? `Ядра: ${c.cores}, Частота: ${c.base_frequency} GHz` : ''}
+                                   ${componentType === 'ram' ? `Память: ${c.memory}, Частота: ${c.frequency} MHz` : ''}
+                                   ${componentType === 'gpu' ? `Память: ${c.memory} GB` : ''}
+                                   ${componentType === 'storage' ? `Объем: ${c.memory}` : ''}
+                                   <br>
+                                   ${componentLink}
+                               </li>`;
+                    }).join('');
+                } else {
+                    componentList.innerHTML = "<li>Подходящие комплектующие не найдены</li>";
+                }
+            })
+            .catch(error => {
+                console.error("Ошибка загрузки данных:", error);
+                componentList.innerHTML = "<li>Не удалось загрузить данные</li>";
+            });
+
+        popup.style.display = 'block';
+    }
+
+    function selectComponent(componentType, component) {
+        if (componentType === 'ram') {
+            selectedComponents[componentType].push(component);
+        } else {
+            selectedComponents[componentType] = component;
+        }
+
+        totalPrice += parseFloat(component.price) || 0;
+        totalPrice = Math.round(totalPrice * 100) / 100; // Округление до 2 знаков
+
+        updateCalculator();
+        closePopup();
+    }
+
+    function selectPreset(presetType) {
+    const selectedMotherboardId = window.location.pathname.split('/')[2];
+    const url = `/preset/${selectedMotherboardId}/${presetType}/`;
+
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Ошибка сети");
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.components) {
+                // Очистить выбранные компоненты, но оставить материнскую плату
+                selectedComponents = {
+                    motherboard: selectedComponents.motherboard, // Сохраняем текущую материнскую плату
+                    cpu: null,
+                    ram: [],
+                    gpu: null,
+                    storage: null
+                };
+
+                // Обновить общую стоимость
+                totalPrice = parseFloat(selectedComponents.motherboard.price) || 0;  // Начинаем с стоимости материнки
+                totalPrice = Math.round(totalPrice * 100) / 100;
+
+                // Добавить компоненты из пресета
+                data.components.forEach(component => {
+                    // Преобразуем цену в число перед добавлением
+                    const componentPrice = parseFloat(component.price) || 0; // Если цена отсутствует, ставим 0
+
+                    if (component.type === 'ram') {
+                        selectedComponents.ram.push(component);
+                    } else {
+                        selectedComponents[component.type] = component;
+                    }
+
+                    // Добавляем цену компонента к общей стоимости
+                    totalPrice += componentPrice;
+                });
+
+                // Обновить калькулятор (включая общую стоимость)
+                updateCalculator();
+            } else {
+                alert("Не удалось загрузить готовую сборку");
+            }
+        })
+        .catch(error => {
+            console.error("Ошибка загрузки данных для пресета:", error);
+            alert("Произошла ошибка при загрузке сборки");
+        });
+}
+
+    function closePopup() {
+        const popup = document.getElementById('popup');
+        popup.style.display = 'none';
+    }
+
+    function redirectToMotherboardSelection() {
+        window.location.href = '/';
+    }
+</script>
+
+</body>
+</html>

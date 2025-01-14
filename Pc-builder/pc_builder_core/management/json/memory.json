@@ -1,0 +1,137 @@
+[
+    {
+        "brand": "Corsair",
+        "model": "Corsair Vengeance LPX",
+        "price": "1316.98",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/corsair/cmk16gx4m2b3200"
+    },
+    {
+        "brand": "G.Skill",
+        "model": "G.Skill Trident Z RGB",
+        "price": "416.62",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/gskill/f43200c16d16gtzr"
+    },
+    {
+        "brand": "TeamGroup",
+        "model": "TeamGroup T-Force Delta RGB",
+        "price": "1570.64",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/team/tf3d416g3200hc16"
+    },
+    {
+        "brand": "Corsair",
+        "model": "Corsair Dominator Platinum RGB",
+        "price": "739.00",
+        "memory": "16GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/corsair/cmt32gx4m2c3200c"
+    },
+    {
+        "brand": "G.Skill",
+        "model": "G.Skill Ripjaws V",
+        "price": "136.00",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/gskill/f43200c16d16gvkb"
+    },
+    {
+        "brand": "TeamGroup",
+        "model": "TeamGroup T-Force Vulcan Z",
+        "price": "160.62",
+        "memory": "8GB",
+        "frequency": "3000MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/team/16g3200hc16fdc01"
+    },
+    {
+        "brand": "Patriot",
+        "model": "Patriot Viper Steel",
+        "price": "169.68",
+        "memory": "8GB",
+        "frequency": "3000MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/patriot/pvs416g300c6k"
+    },
+    {
+        "brand": "Silicon Power",
+        "model": "Silicon Power XPOWER Zenith",
+        "price": "193.97",
+        "memory": "8GB",
+        "frequency": "3000MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/siliconpower/sp016gxlzu360bdb"
+    },
+    {
+        "brand": "Corsair",
+        "model": "Corsair Vengeance LPX Black",
+        "price": "322.68",
+        "memory": "8GB",
+        "frequency": "3000MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/corsair/16gx4m2b3000c15"
+    },
+    {
+        "brand": "G.Skill",
+        "model": "G.Skill Trident Z Neo",
+        "price": "434.05",
+        "memory": "8GB",
+        "frequency": "3600MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/gskill/f43600c16d16gtzn"
+    },
+    {
+        "brand": "Corsair",
+        "model": "Corsair Vengeance LPX White",
+        "price": "1344.28",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/corsair/vengeancelpx16gb"
+    },
+    {
+        "brand": "TeamGroup",
+        "model": "TeamGroup T-Force Xtreem",
+        "price": "1352.47",
+        "memory": "8GB",
+        "frequency": "3600MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/team/tf4d416g3600hc18"
+    },
+    {
+        "brand": "Silicon Power",
+        "model": "Silicon Power XPOWER Turbine RGB DDR4",
+        "price": "453.21",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/siliconpower/sp016gxlzu320bdd"
+    },
+    {
+        "brand": "TeamGroup",
+        "model": "TeamGroup T-Force Delta TUF Gaming Alliance",
+        "price": "1570.64",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/team/tf3d416g3200hc16"
+    },
+    {
+        "brand": "Patriot",
+        "model": "Patriot Viper Gaming",
+        "price": "163.46",
+        "memory": "8GB",
+        "frequency": "3200MHz",
+        "voltage": "1.35V",
+        "ref": "https://catalog.onliner.by/dram/patriot/pvs416g320c6k"
+    }
+]

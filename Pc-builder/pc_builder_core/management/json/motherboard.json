@@ -1,0 +1,209 @@
+[
+    {
+        "brand": "ASRock",
+        "model": "B550 Extreme4",
+        "socket": "AM4",
+        "chipset": "B550",
+        "memoryfr": 4733,
+        "price": "565.64",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/b550extreme4"
+    },
+    {
+        "brand": "ASUS",
+        "model": "ROG STRIX Z690-F GAMING WIFI",
+        "socket": "LGA1700",
+        "chipset": "Z690",
+        "memoryfr": 6400,
+        "price": "1391.71",
+        "ref": "https://catalog.onliner.by/motherboard/asus/rogz690fgwifi"
+    },
+    {
+        "brand": "MSI",
+        "model": "MAG B760 TOMAHAWK WIFI",
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memoryfr": 5333,
+        "price": "699.00",
+        "ref": "https://catalog.onliner.by/motherboard/msi/magb760tomwf"
+    },
+    {
+        "brand": "ASUS",
+        "model": "TUF GAMING B660M-PLUS D4",
+        "socket": "LGA1700",
+        "chipset": "B660",
+        "memoryfr": 5066,
+        "price": "850.86",
+        "ref": "https://catalog.onliner.by/motherboard/asus/tufgb660mpluswd4"
+    },
+    {
+        "brand": "ASRock",
+        "model": "H510M-HDV/M.2",
+        "socket": "LGA1200",
+        "chipset": "H510",
+        "memoryfr": 3200,
+        "price": "269.00",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/h510mhdvm2"
+    },
+    {
+        "brand": "ASUS",
+        "model": "PRIME Z790-A WIFI",
+        "socket": "LGA1700",
+        "chipset": "Z790",
+        "memoryfr": 7200,
+        "price": "1209.58",
+        "ref": "https://catalog.onliner.by/motherboard/asus/primez790awifi"
+    },
+    {
+        "brand": "GIGABYTE",
+        "model": "X670 AORUS ELITE AX",
+        "socket": "AM5",
+        "chipset": "X670",
+        "memoryfr": 6400,
+        "price": "1981.88",
+        "ref": "https://catalog.onliner.by/motherboard/gigabyte/x670aorelaxr11"
+    },
+    {
+        "brand": "MSI",
+        "model": "MAG B650 TOMAHAWK WIFI",
+        "socket": "AM5",
+        "chipset": "B650",
+        "memoryfr": 6200,
+        "price": "1151.00",
+        "ref": "https://catalog.onliner.by/motherboard/msi/magb650tomwf"
+    },
+    {
+        "brand": "ASUS",
+        "model": "TUF GAMING B550-PLUS",
+        "socket": "AM4",
+        "chipset": "B550",
+        "memoryfr": 4866,
+        "price": "668.27",
+        "ref": "https://catalog.onliner.by/motherboard/asus/tufgamingb550plu"
+    },
+    {
+        "brand": "ASRock",
+        "model": "X570 Phantom Gaming 4",
+        "socket": "AM4",
+        "chipset": "X570",
+        "memoryfr": 4066,
+        "price": "637.56",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/x570phag4"
+    },
+    {
+        "brand": "ASUS",
+        "model": "PRIME H510M-E",
+        "socket": "LGA1200",
+        "chipset": "H510",
+        "memoryfr": 3200,
+        "price": "386.88",
+        "ref": "https://catalog.onliner.by/motherboard/asus/primeh510mer20"
+    },
+    {
+        "brand": "MSI",
+        "model": "MPG B550 GAMING PLUS",
+        "socket": "AM4",
+        "chipset": "B550",
+        "memoryfr": 4400,
+        "price": "509.19",
+        "ref": "https://catalog.onliner.by/motherboard/msi/mpgb550gamingplu"
+    },
+    {
+        "brand": "GIGABYTE",
+        "model": "B560M DS3H",
+        "socket": "LGA1200",
+        "chipset": "B560",
+        "memoryfr": 4800,
+        "price": "324.06",
+        "ref": "https://catalog.onliner.by/motherboard/gigabyte/b560mds3hv3rev10"
+    },
+    {
+        "brand": "ASUS",
+        "model": "PRIME B550M-A",
+        "socket": "AM4",
+        "chipset": "B550",
+        "memoryfr": 4400,
+        "price": "413.42",
+        "ref": "https://catalog.onliner.by/motherboard/asus/primeb550ma"
+    },
+    {
+        "brand": "ASRock",
+        "model": "H470M-HDV/M.2",
+        "socket": "LGA1200",
+        "chipset": "H470",
+        "memoryfr": 2933,
+        "price": "260.49",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/h470mhdvm2"
+    },
+    {
+        "brand": "ASUS",
+        "model": "ROG STRIX Z790-E GAMING WIFI",
+        "socket": "LGA1700",
+        "chipset": "Z790",
+        "memoryfr": 7200,
+        "price": "2187.93",
+        "ref": "https://catalog.onliner.by/motherboard/asus/90mb1fc0m0eay0"
+    },
+    {
+        "brand": "MSI",
+        "model": "MPG B650 EDGE WIFI",
+        "socket": "AM5",
+        "chipset": "B650",
+        "memoryfr": 6200,
+        "price": "1231.08",
+        "ref": "https://catalog.onliner.by/motherboard/msi/mpgb650edgewifi"
+    },
+    {
+        "brand": "ASRock",
+        "model": "Z790 Taichi",
+        "socket": "LGA1700",
+        "chipset": "Z790",
+        "memoryfr": 7600,
+        "price": "1540.00",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/z790taichilite"
+    },
+    {
+        "brand": "MSI",
+        "model": "PRO B760-P DDR4",
+        "socket": "LGA1700",
+        "chipset": "B760",
+        "memoryfr": 5333,
+        "price": "595.45",
+        "ref": "https://catalog.onliner.by/motherboard/msi/prob760pwfd4"
+    },
+    {
+        "brand": "ASUS",
+        "model": "PRIME H610M-E D4",
+        "socket": "LGA1700",
+        "chipset": "H610",
+        "memoryfr": 3200,
+        "price": "472.70",
+        "ref": "https://catalog.onliner.by/motherboard/asus/h610med4csm"
+    },
+    {
+        "brand": "ASRock",
+        "model": "X670E Taichi",
+        "socket": "AM5",
+        "chipset": "X670E",
+        "memoryfr": 6600,
+        "price": "2939.95",
+        "ref": "https://catalog.onliner.by/motherboard/asrock/x670eta"
+    },
+    {
+        "brand": "MSI",
+        "model": "MAG Z790 TOMAHAWK WIFI DDR4",
+        "socket": "LGA1700",
+        "chipset": "Z790",
+        "memoryfr": 5333,
+        "price": "1276.33",
+        "ref": "https://catalog.onliner.by/motherboard/msi/magz790tomwfd4"
+    },
+    {
+        "brand": "ASUS",
+        "model": "ROG STRIX B650E-F GAMING WIFI",
+        "socket": "AM5",
+        "chipset": "B650E",
+        "memoryfr": 6400,
+        "price": "1543.00",
+        "ref": "https://catalog.onliner.by/motherboard/asus/rogb650efwf"
+    }
+]

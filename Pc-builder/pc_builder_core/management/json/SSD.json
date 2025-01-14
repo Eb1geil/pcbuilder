@@ -1,0 +1,802 @@
+[
+    {
+        "brand": "Crucial",
+        "model": "T705 M.2 2TB",
+        "price": "3311.17",
+        "benchmark": "773",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct2000t705ssd5"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T705 M.2 4TB",
+        "price": "3633.00",
+        "benchmark": "748",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct4000t705ssd5"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 4TB",
+        "price": "2853.08",
+        "benchmark": "716",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct4000t700ssd3"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 4TB",
+        "price": "2888.00",
+        "benchmark": "716",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct4000t700ssd5"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 2TB",
+        "price": "1529.00",
+        "benchmark": "658",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct2000t700ssd3"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 2TB",
+        "price": "1129.90",
+        "benchmark": "658",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct2000t700ssd5"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850X M.2 8TB",
+        "price": "360.00",
+        "benchmark": "591",
+        "memory": "8TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t2x0e"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T705 M.2 1TB",
+        "price": "1197.00",
+        "benchmark": "579",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct1000t705ssd5"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 1TB",
+        "price": "739.90",
+        "benchmark": "569",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct1000t700ssd3"
+    },
+    {
+        "brand": "Crucial",
+        "model": "T700 M.2 1TB",
+        "price": "929.90",
+        "benchmark": "569",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct1000t700ssd5"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850X M.2 4TB",
+        "price": "1429.99",
+        "benchmark": "522",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds400t2x0e"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Evo Plus M.2 4TB",
+        "price": "1949.99",
+        "benchmark": "493",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9s4t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850X M.2 2TB",
+        "price": "630.00",
+        "benchmark": "492",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds200t2x0e"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Pro M.2 4TB",
+        "price": "1439.90",
+        "benchmark": "475",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9p4t0b"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850 NVMe PCIe M.2 2TB",
+        "price": "1221.00",
+        "benchmark": "464",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds200t1x0e"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Evo Plus M.2 2TB",
+        "price": "869.99",
+        "benchmark": "452",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9s2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Pro M.2 2TB",
+        "price": "690.00",
+        "benchmark": "449",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9p2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Pro M.2 2TB",
+        "price": "690.00",
+        "benchmark": "449",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9p2t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850X M.2 1TB",
+        "price": "360.00",
+        "benchmark": "443",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t2x0e"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 Pro NVMe PCIe M.2 2TB",
+        "price": "680.00",
+        "benchmark": "402",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8p2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Pro M.2 1TB",
+        "price": "459.87",
+        "benchmark": "402",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9p1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Pro M.2 1TB",
+        "price": "459.87",
+        "benchmark": "402",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9p1t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN850 NVMe PCIe M.2 1TB",
+        "price": "678.10",
+        "benchmark": "395",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t1x0e"
+    },
+    {
+        "brand": "Crucial",
+        "model": "P5 Plus NVMe PCIe M.2 1TB",
+        "price": "519.00",
+        "benchmark": "385",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct1000p5pssd8"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 Pro NVMe PCIe M.2 1TB",
+        "price": "470.36",
+        "benchmark": "385",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8p1t0bw"
+    },
+    {
+        "brand": "Gigabyte",
+        "model": "Aorus NVMe PCIe M.2 2TB",
+        "price": "1868.02",
+        "benchmark": "360",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/gigabyte/gpasm2ne6200tttd"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Evo Plus M.2 1TB",
+        "price": "464.99",
+        "benchmark": "360",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9s1t0bw"
+    },
+    {
+        "brand": "Corsair",
+        "model": "Force MP600 NVMe PCIe M.2 2TB",
+        "price": "2481.00",
+        "benchmark": "340",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/corsair/cssdf2000gbmp600"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 Pro NVMe PCIe M.2 500GB",
+        "price": "512.40",
+        "benchmark": "338",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8p500bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 2TB",
+        "price": "719.30",
+        "benchmark": "336",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 2TB",
+        "price": "719.30",
+        "benchmark": "336",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Evo M.2 2TB",
+        "price": "594.99",
+        "benchmark": "335",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9e2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Pro NVMe PCIe M.2 1TB",
+        "price": "737.20",
+        "benchmark": "327",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7p1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Pro NVMe PCIe M.2 512GB",
+        "price": "574.30",
+        "benchmark": "322",
+        "memory": "512GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7p512bw"
+    },
+    {
+        "brand": "Corsair",
+        "model": "Force MP600 NVMe PCIe M.2 1TB",
+        "price": "773.00",
+        "benchmark": "314",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/corsair/cssdf1000gbmp600"
+    },
+    {
+        "brand": "Samsung",
+        "model": "990 Evo M.2 1TB",
+        "price": "368.43",
+        "benchmark": "312",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv9e1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 1TB",
+        "price": "377.30",
+        "benchmark": "310",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 1TB",
+        "price": "377.30",
+        "benchmark": "310",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s1t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN770 NVMe PCIe M.2 250GB",
+        "price": "302.38",
+        "benchmark": "303",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds250g3x0e"
+    },
+    {
+        "brand": "HP",
+        "model": "EX950 NVMe PCIe M.2 2TB",
+        "price": "1563.00",
+        "benchmark": "300",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/hp/5ms24aa"
+    },
+    {
+        "brand": "HP",
+        "model": "EX950 NVMe PCIe M.2 1TB",
+        "price": "736.00",
+        "benchmark": "284",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/hp/5ms23aa"
+    },
+    {
+        "brand": "Crucial",
+        "model": "P5 3D NVMe PCIe M.2 2TB",
+        "price": "583.27",
+        "benchmark": "283",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct2000p5ssd8"
+    },
+    {
+        "brand": "Adata",
+        "model": "XPG SX8200 Pro NVMe PCIe M.2 1TB",
+        "price": "231.34",
+        "benchmark": "279",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asx8200pnp1ttc"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 500GB",
+        "price": "394.79",
+        "benchmark": "275",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s500bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 500GB",
+        "price": "394.79",
+        "benchmark": "275",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s500bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 Pro NVMe PCIe M.2 250GB",
+        "price": "327.40",
+        "benchmark": "272",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8p250bw"
+    },
+    {
+        "brand": "HP",
+        "model": "EX950 NVMe PCIe M.2 512GB",
+        "price": "586.00",
+        "benchmark": "255",
+        "memory": "512GB",
+        "ref": "https://catalog.onliner.by/ssd/hp/5ms22aa"
+    },
+    {
+        "brand": "Intel",
+        "model": "670p NVMe PCIe M.2 1TB",
+        "price": "307.71",
+        "benchmark": "251",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/intel/ssdpeknu010tzx1"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 NVMe PCIe M.2 1TB",
+        "price": "338.58",
+        "benchmark": "251",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8v1t0bw"
+    },
+    {
+        "brand": "SanDisk",
+        "model": "Extreme Pro NVMe PCIe M.2 500GB (2018)",
+        "price": "538.00",
+        "benchmark": "244",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/sandisk/sdssdxpm2500gg25"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN750 NVMe PCIe M.2 500GB (2019)",
+        "price": "757.00",
+        "benchmark": "244",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds500g3x0c"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN750 SE NVMe PCIe M.2 1TB",
+        "price": "536.12",
+        "benchmark": "239",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t1b0e"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 250GB",
+        "price": "201.03",
+        "benchmark": "234",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s250bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "970 Evo Plus NVMe PCIe M.2 250GB",
+        "price": "201.03",
+        "benchmark": "234",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv7s250bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 NVMe PCIe M.2 500GB",
+        "price": "211.75",
+        "benchmark": "224",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8v500bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN750 SE NVMe PCIe M.2 500GB",
+        "price": "624.92",
+        "benchmark": "219",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds500g1b0e"
+    },
+    {
+        "brand": "Intel",
+        "model": "660p NVMe PCIe M.2 2TB",
+        "price": "423.44",
+        "benchmark": "217",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/intel/ssdpeknw020t8x1"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue SN550 NVMe PCIe M.2 500GB",
+        "price": "519.15",
+        "benchmark": "204",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds500g2b0c"
+    },
+    {
+        "brand": "Adata",
+        "model": "XPG SX6000 Pro NVMe PCIe M.2 1TB",
+        "price": "339.97",
+        "benchmark": "203",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asx6000pnp1ttc"
+    },
+    {
+        "brand": "Samsung",
+        "model": "960 Evo NVMe PCIe M.2 250GB",
+        "price": "254.97",
+        "benchmark": "199",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv6e250bw"
+    },
+    {
+        "brand": "Adata",
+        "model": "XPG SX6000 Pro NVMe PCIe M.2 512GB",
+        "price": "155.00",
+        "benchmark": "193",
+        "memory": "512GB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asx6000pnp512gtc"
+    },
+    {
+        "brand": "Samsung",
+        "model": "980 NVMe PCIe M.2 250GB",
+        "price": "198.38",
+        "benchmark": "191",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mzv8v250bw"
+    },
+    {
+        "brand": "Intel",
+        "model": "760p Series NVMe PCIe M.2 256GB",
+        "price": "221.28",
+        "benchmark": "190",
+        "memory": "256GB",
+        "ref": "https://catalog.onliner.by/ssd/intel/ssdpekkw256g8xt"
+    },
+    {
+        "brand": "HP",
+        "model": "EX900 NVMe PCIe M.2 1TB",
+        "price": "330.19",
+        "benchmark": "184",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/hp/5xm46aa"
+    },
+    {
+        "brand": "HP",
+        "model": "EX900 NVMe PCIe M.2 500GB",
+        "price": "506.00",
+        "benchmark": "183",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/hp/2yy44aa"
+    },
+    {
+        "brand": "WD",
+        "model": "Black SN750 SE NVMe PCIe M.2 250GB",
+        "price": "666.29",
+        "benchmark": "178",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds250g1b0e"
+    },
+    {
+        "brand": "Adata",
+        "model": "XPG SX6000 Pro NVMe PCIe M.2 256GB",
+        "price": "97.51",
+        "benchmark": "177",
+        "memory": "256GB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asx6000pnp256gtc"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue SN550 NVMe PCIe M.2 250GB",
+        "price": "470.70",
+        "benchmark": "168",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds250g2b0c"
+    },
+    {
+        "brand": "HP",
+        "model": "EX900 NVMe PCIe M.2 250GB",
+        "price": "155.94",
+        "benchmark": "163",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/hp/2yy43aa"
+    },
+    {
+        "brand": "HP",
+        "model": "EX900 NVMe PCIe M.2 120GB",
+        "price": "365.00",
+        "benchmark": "139",
+        "memory": "120GB",
+        "ref": "https://catalog.onliner.by/ssd/hp/2yy42aa"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 EVO 4TB",
+        "price": "1362.36",
+        "benchmark": "117",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e4t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 EVO 2TB",
+        "price": "649.00",
+        "benchmark": "113",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 Evo 4TB",
+        "price": "1362.36",
+        "benchmark": "113",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e4t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 Evo 2TB",
+        "price": "649.00",
+        "benchmark": "113",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e2t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 EVO 1TB",
+        "price": "365.89",
+        "benchmark": "112",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 Evo 1TB",
+        "price": "365.89",
+        "benchmark": "112",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e1t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 Pro 512GB",
+        "price": "917.70",
+        "benchmark": "110",
+        "memory": "512GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz76p512bw"
+    },
+    {
+        "brand": "Crucial",
+        "model": "MX500 1TB",
+        "price": "331.40",
+        "benchmark": "106",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct1000mx500ssd1"
+    },
+    {
+        "brand": "Crucial",
+        "model": "MX500 500GB",
+        "price": "211.32",
+        "benchmark": "106",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct500mx500ssd1"
+    },
+    {
+        "brand": "Crucial",
+        "model": "MX500 2TB",
+        "price": "619.99",
+        "benchmark": "106",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct2000mx500ssd1"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 Evo 500GB",
+        "price": "200.84",
+        "benchmark": "105",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e500bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 QVO 4TB",
+        "price": "1372.22",
+        "benchmark": "105",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77q4t0bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 QVO 8TB",
+        "price": "2716.42",
+        "benchmark": "105",
+        "memory": "8TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77q8t0bw"
+    },
+    {
+        "brand": "Adata",
+        "model": "Ultimate SU800 1TB",
+        "price": "410.60",
+        "benchmark": "104",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asu800ss1ttc"
+    },
+    {
+        "brand": "Adata",
+        "model": "Ultimate SU800 512GB",
+        "price": "262.28",
+        "benchmark": "104",
+        "memory": "512GB",
+        "ref": "https://catalog.onliner.by/ssd/adata/asu800ss512gtc"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 EVO 500GB",
+        "price": "200.84",
+        "benchmark": "104",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e500bw"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 Evo 250GB",
+        "price": "183.33",
+        "benchmark": "101",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77e250bw"
+    },
+    {
+        "brand": "Crucial",
+        "model": "MX500 250GB",
+        "price": "143.90",
+        "benchmark": "101",
+        "memory": "250GB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct250mx500ssd1"
+    },
+    {
+        "brand": "Crucial",
+        "model": "MX500 4TB",
+        "price": "1320.20",
+        "benchmark": "101",
+        "memory": "4TB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct4000mx500ssd1"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 QVO 2TB",
+        "price": "664.20",
+        "benchmark": "101",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77q2t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue 3D 1TB",
+        "price": "745.00",
+        "benchmark": "99.8",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t2b0a"
+    },
+    {
+        "brand": "SanDisk",
+        "model": "Ultra 3D 2TB",
+        "price": "663.66",
+        "benchmark": "99.7",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/sandisk/sdssdh32t00g25"
+    },
+    {
+        "brand": "SanDisk",
+        "model": "Ultra 3D 500GB",
+        "price": "498.66",
+        "benchmark": "99.1",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/sandisk/sdssdh3500gg25"
+    },
+    {
+        "brand": "SanDisk",
+        "model": "Ultra 3D 1TB",
+        "price": "630.74",
+        "benchmark": "98.5",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/sandisk/sdssdh31t00g25"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue 3D SATA M.2 1TB",
+        "price": "718.37",
+        "benchmark": "98",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds100t2b0b"
+    },
+    {
+        "brand": "Samsung",
+        "model": "860 QVO 2TB",
+        "price": "886.73",
+        "benchmark": "97.9",
+        "memory": "2TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz76q2t0bw"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue 3D SATA M.2 500GB",
+        "price": "492.00",
+        "benchmark": "96.8",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds500g2b0b"
+    },
+    {
+        "brand": "WD",
+        "model": "Blue 3D 500GB",
+        "price": "486.00",
+        "benchmark": "96.7",
+        "memory": "500GB",
+        "ref": "https://catalog.onliner.by/ssd/westerndigital/wds500g2b0a"
+    },
+    {
+        "brand": "Crucial",
+        "model": "BX300 240GB",
+        "price": "77.14",
+        "benchmark": "94.5",
+        "memory": "240GB",
+        "ref": "https://catalog.onliner.by/ssd/crucial/ct240bx500ssd1"
+    },
+    {
+        "brand": "Samsung",
+        "model": "870 QVO 1TB",
+        "price": "344.34",
+        "benchmark": "93.3",
+        "memory": "1TB",
+        "ref": "https://catalog.onliner.by/ssd/samsung/mz77q1t0bw"
+    }
+]

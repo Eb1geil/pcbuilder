@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбор материнской платы</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f4f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .motherboard-selection {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            height: 80vh; /* Ограничиваем высоту */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .motherboard-selection h2 {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        .motherboard-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            overflow-y: auto; /* Добавляем прокрутку */
+            max-height: calc(80vh - 100px); /* Оставляем место для заголовка и кнопок */
+        }
+        .motherboard-item {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .motherboard-item button {
+            padding: 12px 25px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .motherboard-item button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .motherboard-item button:active {
+            background-color: #004085;
+        }
+        /* Добавляем анимацию для появления элементов */
+        .motherboard-item {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="motherboard-selection">
+        <h2>Выберите материнскую плату</h2>
+        <ul class="motherboard-list">
+            {% for motherboard in motherboards %}
+                <li class="motherboard-item">
+                    <button onclick="selectMotherboard({{ motherboard.id }})">
+                        {{ motherboard.model }} - {{ motherboard.price }} руб
+                    </button>
+                </li>
+            {% empty %}
+                <li>Нет доступных материнских плат.</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</body>
+<script>
+    function selectMotherboard(motherboardId) {
+        // Перенаправляем на страницу калькулятора с ID материнской платы
+        window.location.href = `/motherboards/${motherboardId}/`;
+    }
+</script>
+</html>
